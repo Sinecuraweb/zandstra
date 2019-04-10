@@ -1,0 +1,10 @@
+objects:
+    App\Pattern\GeneratingObjects\Prototype\Terrain\TerrainFactory:
+        arguments:
+            - App\Pattern\GeneratingObjects\Prototype\Terrain\Sea\EarthSea
+            - App\Pattern\GeneratingObjects\Prototype\Terrain\Plains\MarsPlains
+            - App\Pattern\GeneratingObjects\Prototype\Terrain\Forest\EarthForest
+
+    App\Pattern\GeneratingObjects\DependencyInjection\AppointmentMaker:
+        arguments:
+            - App\Pattern\GeneratingObjects\AbstractFactory\Encoder\Bloggs\BloggsApptEncoder
